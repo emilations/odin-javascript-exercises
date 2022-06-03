@@ -1,6 +1,5 @@
 const removeFromArray = function() {
     let result = arguments[0];
-console.log(result)
     for (let i = 1; i < arguments.length; i++) {
         result = result.filter((elem) => elem !== arguments[i])
     }
